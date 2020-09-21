@@ -27,7 +27,7 @@ def get_bill(name, data):
 
 	# Façon plus smart de le faire, donné par le prof.
 	bill_data = [
-		("SOUS-TOTAL", sous_total),
+		("SOUS TOTAL", sous_total),
 		("TAXES     ", taxes),
 		("TOTAL     ", total)
 	]
