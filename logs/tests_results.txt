@@ -1,25 +1,8 @@
-test_format_number (__main__.TestExercice) ... FAIL
+test_format_number (__main__.TestExercice) ... ok
 test_get_bill (__main__.TestExercice) ... ok
 test_get_triangle (__main__.TestExercice) ... ok
 
-======================================================================
-FAIL: test_format_number (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "d:/GitHub Stuff/c02-ch5-1-exercices-GoldenAlpharex/test_exercice.py", line 35, in test_format_number
-    self.assertListEqual(
-AssertionError: Lists differ: ['100.111', '-100.111', '-4 205 942.22'] != ['100.111', '-100.111', '-4 205 942.022']
+Ran 3 tests in 0.000s
 
-First differing element 2:
-'-4 205 942.22'
-'-4 205 942.022'
-
-- ['100.111', '-100.111', '-4 205 942.22']
-+ ['100.111', '-100.111', '-4 205 942.022']
-?                                     +
- : Mauvais formatage
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.001s
-
-FAILED (failures=1)
+OK
