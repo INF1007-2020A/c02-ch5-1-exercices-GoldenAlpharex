@@ -44,7 +44,7 @@ def format_number(number, num_decimal_digits):
 
 	# Formater la partie décimale
 	decimal_str = str(int(round(decimal_part * 10**num_decimal_digits)))
-	decimal_str = "." + "0" * (num_decimal_digits - len(decimal_str)) + decimal_str
+	decimal_str = "." + decimal_str + "0" * (num_decimal_digits - len(decimal_str))
 	# Approche plus automagique : decimal_str = f"{decimal_part :.{num_decimal_digits}f}"[1:]
 
 	# Formater la partie entière
